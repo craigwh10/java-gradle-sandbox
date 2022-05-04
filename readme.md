@@ -1,3 +1,3 @@
 - Requires gradle installing via brew.
 - Had to set main class destination in build.gradle.
-- 
+- junit comes installed with gradle.

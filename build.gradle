@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-mainClassName = 'test'
+mainClassName = 'StringOperations'
 // https://stackoverflow.com/questions/24924932/gradle-could-not-find-or-load-main-class
 
 group 'org.example'
