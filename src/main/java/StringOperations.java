@@ -1,6 +1,10 @@
 public class StringOperations {
     public static String reverseString(String stringToReverse) {
 
+        if (stringToReverse == null) {
+            throw new IllegalArgumentException("String input can not be null.");
+        }
+
         String newString = "";
 
         // init, block cond, run on each block.
